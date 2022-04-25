@@ -1,0 +1,253 @@
+﻿regions:
+  - name: apac
+    location: 
+      - name: HK-Hong Kong
+        infrastructure:
+          - Pre-Production 
+          - Production 
+      - name: SG-Singapore
+        infrastructure:
+          - Pre-Production 
+          - Production 
+      - name: SY-Sydney
+        infrastructure:
+          - Pre-Production 
+          - Production 
+  - name: canada
+    location:
+      - name: GC-Guelph
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+          - Production (Dedicated App Infra)
+          - DR-Metro 
+          - DR-Replicated
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: SC-Stratford
+        infrastructure:
+          - Production (General Purpose)
+          - Production (Dedicated App Infra)
+          - DR-Metro 
+          - DR-Replicated
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: CA-Branches
+        infrastructure:
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+  - name: uk
+    location:
+      - name: LX-Luxembourg
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: SL-Slough
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: WO-Woking
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+  - name: caribbean
+    location:
+      - name: Bahamas
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: TR-Trinidad
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: WO-Woking
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+  - name: uk
+    location:
+      - name: LX-Luxembourg
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: SL-Slough
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+      - name: WO-Woking
+        infrastructure:
+          - Pre-Production 
+          - Production (General Purpose)
+        application:
+          - type: nonproduction
+            environments:
+              - dev
+              - qat
+              - uat
+          - type: production
+            environments:
+              - dev
+              - qat
+              - uat
+              - prod
+              - dr
+  - name: us
+    location: 
+      - name: SR-SRDC (New Jersey)
+      - name: PR-PRDC (New Jersey)
+      - name: DE-Denver
+      - name: MI-Minneapolis
+      - name: SU-Sunnyvale
+      - name: US-Branches
+    infrastructure:
+    application:
+      - type: nonproduction
+        environments:
+          - dev
+          - qat
+          - uat
+      - type: production
+        environments:
+          - dev
+          - qat
+          - uat
+          - prod
+          - dr
